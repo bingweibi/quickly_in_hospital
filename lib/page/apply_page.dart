@@ -153,9 +153,9 @@ class _ApplyPageState extends State<ApplyPage> {
                         UtilMethod().cityCodeCast(
                             initProvince, initCity, initTown),
                         //医生电话
-                        uTelController.text,
-                        //病人电话
                         uDocTelController.text,
+                        //病人电话
+                        uTelController.text,
                         //姓名
                         unameController.text,
                         //性别
@@ -178,7 +178,7 @@ class _ApplyPageState extends State<ApplyPage> {
                           .then((value) {
                         if (value) {
                           UtilMethod().showConfirmDialog(
-                              '入院凭证已申请成功，等待入院登记处办理成功后短信通知医生和病人！',
+                              '入院凭证已申请成功，等待入院登记处（短号：6888）办理成功后短信通知医生和病人！',
                               context);
                           unameController.clear();
                           uIDCardController.clear();
@@ -379,7 +379,7 @@ class _ApplyPageState extends State<ApplyPage> {
                     : '')),
         textAlign: TextAlign.end,
         keyboardType:
-            (customType == 'patientName' || customType == 'addressDetail')
+            (customType == 'patientName' || customType == 'addressDetail'|| customType =='idNumber')
                 ? TextInputType.text
                 : TextInputType.number,
         controller: customType == 'patientName'

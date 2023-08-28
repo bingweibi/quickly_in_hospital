@@ -255,7 +255,7 @@ class UtilMethod {
       "admissType": upDataModel.admissType,
       "admissWardPlan": upDataModel.admissWardPlan,
       "homeDistrict": upDataModel.homeDistrict,
-    });
+    },);
     if(response.statusCode == 200){
       return true;
     }else{
