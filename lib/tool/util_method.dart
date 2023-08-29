@@ -79,13 +79,13 @@ class UtilMethod {
       var last = parity[sum % 11];
       if (parity[sum % 11].toString() != numList[17]) {
         tip = "校验位错误";
+        pass = false;
         return '$pass-$tip';
       }
     } else {
       tip = '身份证号不是18位';
       pass = false;
     }
-//  print('证件格式$pass');
     return '$pass-$tip';
   }
 

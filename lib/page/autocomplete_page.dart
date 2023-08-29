@@ -124,7 +124,7 @@ class _AutoCompletePageState extends State<AutoCompletePage> {
                     },
                     style: const ButtonStyle(
                         backgroundColor:
-                        MaterialStatePropertyAll(Color.fromARGB(0, 129, 216, 207))),
+                        MaterialStatePropertyAll(Color.fromARGB(100, 129, 216, 207))),
                     child: const Text('提交'))
               ],
             );
@@ -188,7 +188,7 @@ class _AutoCompletePageState extends State<AutoCompletePage> {
             },
             style: const ButtonStyle(
                 backgroundColor:
-                MaterialStatePropertyAll(Color.fromARGB(0, 129, 216, 207))),
+                MaterialStatePropertyAll(Color.fromARGB(100, 129, 216, 207))),
             child: const Text('提交'))
       ],
     );

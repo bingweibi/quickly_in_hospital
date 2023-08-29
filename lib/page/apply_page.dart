@@ -366,7 +366,7 @@ class _ApplyPageState extends State<ApplyPage> {
   Widget _typeInfo(String? customType) {
     return Container(
       alignment: Alignment.centerRight,
-      width: 250,
+      width: 220,
       height: 40,
       padding: const EdgeInsets.only(left: 10),
       child: TextField(
