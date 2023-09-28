@@ -1096,7 +1096,68 @@ class Data {
       "deptname": '康复科',
       "deptSn": '8030000',
       "wardSn": '8033000'
+    },
+    {
+      "wardName": '神经内科病房2-2',
+      "deptname": '神经内科',
+      "deptSn": '1020400',
+      "wardSn": '1020412'
+    },
+    {
+      "wardName": '血透室二病区',
+      "deptname": '肾病学科',
+      "deptSn": '1020500',
+      "wardSn": '1020505'
+    },
+    {
+      "wardName": '血透室一病区',
+      "deptname": '肾病学科',
+      "deptSn": '1020500',
+      "wardSn": '1020507'
+    },
+    {
+      "wardName": '血透室三病区',
+      "deptname": '肾病学科',
+      "deptSn": '1020500',
+      "wardSn": '1020510'
+    },
+    {
+      "wardName": 'RICU',
+      "deptname": '重症医学部',
+      "deptSn": '1040100',
+      "wardSn": '1020201'
+    },
+    {
+      "wardName": '儿科一病区2',
+      "deptname": '儿科',
+      "deptSn": '1040300',
+      "wardSn": '1040323'
+    },
+    {
+      "wardName": '中西医结合科病房1-2',
+      "deptname": '中西结合科',
+      "deptSn": '1040700',
+      "wardSn": '1040709'
+    },
+    {
+      "wardName": '肿瘤病房C',
+      "deptname": '肿瘤科',
+      "deptSn": '1041100',
+      "wardSn": '1041109'
+    },
+    {
+      "wardName": '核医学病房',
+      "deptname": '核医学',
+      "deptSn": '2010500',
+      "wardSn": '2010503'
+    },
+    {
+      "wardName": '中西医结合科病房3',
+      "deptname": '中西医结核科(板仓)',
+      "deptSn": '6031000',
+      "wardSn": '6031001'
     }
+
   ];
 
   static var situationList = ['危', '急', '一般'];

@@ -178,7 +178,7 @@ class _ApplyPageState extends State<ApplyPage> {
                           .then((value) {
                         if (value) {
                           UtilMethod().showConfirmDialog(
-                              '入院凭证已申请成功，等待入院登记处（短号：6888）办理成功后短信通知医生和病人！',
+                              '入院凭证已申请成功，3分钟后信息将同步至入院处。等待入院登记处(短号:6888)办理成功后短信通知医生和病人!',
                               context);
                           unameController.clear();
                           uIDCardController.clear();
